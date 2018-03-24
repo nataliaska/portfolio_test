@@ -1,0 +1,145 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+header {
+    background: #ECF0F1;
+    height: 100px;
+    width: 100%;
+}
+
+ul {
+    text-align: center;
+}
+
+
+
+li {
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: 300;
+    margin: 30px;
+}
+
+.slider {
+    background-image: url(img/slider2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    margin: -35 0 -25 0;
+}
+
+.slider h1 {
+    text-align: right;
+    font-size: 50px;
+    font-weight: 400;
+    color: #fff;
+    margin-right: 70;
+}
+
+.slider h2 {
+    text-align: right;
+    font-size: 30px;
+    margin: 70 70;
+    font-weight: 400;
+    color: #fff;
+}
+
+.info {
+    background: #ECF0F1;
+    height: 250px;
+    text-align: center;
+}
+
+.info h3 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+    position: relative;
+}
+
+.info p {
+    text-align: center;
+    font-size: 15px;
+    margin: 50 70 20 70;
+    font-weight: 300;
+}
+
+.portfolio {
+    background: #fff;
+    height: 100px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 70px;
+    font-weight: 300;
+}
+
+
+.blog {
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+    height: auto;
+
+}
+
+.blog .one {
+    height: 250px;
+    width: 380px;
+    margin: 20 10;
+    background-image: url(img/foto1.jpg);
+}
+
+.blog .two {
+    height: 250px;
+    width: 380px;
+    background-image: url(img/foto2.jpg);
+    margin: 20 10;
+}
+
+.blog .three {
+    height: 250px;
+    width: 380px;
+    background-image: url(img/foto3.jpg);
+    margin: 20 10;
+}
+
+.blog .four {
+    height: 250px;
+    width: 380px;
+    background-image: url(img/hands-people-woman-girlx.jpg);
+    margin: 20 10;
+}
+
+.blog .five {
+    height: 250px;
+    width: 380px;
+    background-image: url(img/pexels-photo-256523.jpeg);
+    margin: 20 10;
+}
+
+.blog .six {
+    height: 250px;
+    width: 380px;
+    background-image: url(img/red-hands-woman-creative.jpg);
+    margin: 20 10;
+}
+
+
+.footer {
+    background: #ECF0F1;
+    height: 150px;
+}
